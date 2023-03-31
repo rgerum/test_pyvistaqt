@@ -3,7 +3,6 @@ name = "test-pyvistaqt"
 version = "0.1.0"
 description = ""
 authors = ["rgerum <14153051+rgerum@users.noreply.github.com>"]
-readme = "README.md"
 packages = [{include = "test_pyvistaqt"}]
 
 [tool.poetry.dependencies]
