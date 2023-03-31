@@ -10,4 +10,4 @@ p.add_mesh(pv.Cylinder(), color="tan", show_edges=True)
 p.show(screenshot="test.png")
 print("hu")
 
-QtInteractor(window, auto_update=False)
+#QtInteractor(window, auto_update=False)
