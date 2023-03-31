@@ -1,2 +1,3 @@
 pyvistaqt
 pyqt5
+pytest
