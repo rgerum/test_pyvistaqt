@@ -1,3 +1,4 @@
+print("start")
 import sys
 from qtpy import QtWidgets
 from pyvistaqt import QtInteractor
