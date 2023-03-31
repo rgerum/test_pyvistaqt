@@ -25,6 +25,10 @@ jobs:
         python-version: '3.10'
         cache: 'poetry'
     - run: poetry install --with dev
+    - name: Run headless test
+      uses: coactions/setup-xvfb@v1
+      with:
+        run: poetry run python test_pyvistaqt/main.py
     - run: xvfb-run poetry run python test_pyvistaqt/main.py
       env:
         QT_QPA_PLATFORM: "offscreen"
