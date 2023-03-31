@@ -3,4 +3,4 @@ from pyvistaqt import QtInteractor
 
 app = QtWidgets.QApplication([])
 window = QtWidgets.QMainWindow()
-QtInteractor(window, auto_update=False)
+QtInteractor(window)
