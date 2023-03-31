@@ -2,7 +2,7 @@ from qtpy import QtCore, QtWidgets, QtGui
 from pyvistaqt import QtInteractor
 
 app = QtWidgets.QApplication([])
-window = QtWidgets.QWidget()
+window = QtWidgets.QMainWindow()
 print("ho")
 import pyvista as pv
 p = pv.Plotter(off_screen=True)
